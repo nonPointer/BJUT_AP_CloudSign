@@ -1,0 +1,12 @@
+{
+	"checkcode":"",
+	"courseid":,
+	"courselocation":"",
+	"coursename":"",
+	"coursetime":"hh:mm-hh:mm",
+	"imei":"",
+	"signtime":"yyyy-mm-dd:hh:mm:ss",
+	"sname":"",
+	"sno":"",
+	"teachername":""
+}

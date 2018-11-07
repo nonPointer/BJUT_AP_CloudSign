@@ -1,0 +1,1 @@
+curl --header 'Content-Type: application/json;charset=UTF-8' --header 'Accept-Encoding: gzip' --data @data.txt http://39.106.53.215:8080/ap/sign/signOn
