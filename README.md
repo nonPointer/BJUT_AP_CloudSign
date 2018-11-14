@@ -43,8 +43,6 @@ BJUTCloudSign（北工大 AP 云签到）是一个基于 Python 的测试项目�
 
 ### 使用
 
-#### Python
-
 1. 抓取 AP 签到的数据包。
 
 2. 解码并填充以下字段。
