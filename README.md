@@ -4,6 +4,13 @@
 
 README [English](#English) | [中文](#中文)
 
+## Todo
+
+- [ ] Auto fetch course information
+- [ ] Auto generate checkcode
+- [ ] Auto generate sign time
+- [ ] Fetch sign history
+
 ## English
 
 ### Introduction
