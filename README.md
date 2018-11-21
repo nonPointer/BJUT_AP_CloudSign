@@ -6,9 +6,9 @@ README [English](#English) | [中文](#中文)
 
 ## Todo
 
-- [ ] Auto fetch course information
-- [ ] Auto generate checkcode
-- [ ] Auto generate sign time
+- [x] Auto fetch course information
+- [x] Auto generate checkcode
+- [x] Auto generate sign time
 - [ ] Fetch sign history
 
 ## English
@@ -19,28 +19,7 @@ BJUTCloudSign is a test project based on Python, it is used to auto-sign the lec
 
 ### Usage
 
-1. Capture the traffic of AP Sign client.
-
-2. Decode the traffic and fill following fields.
-
-   ```json
-   {
-   	"checkcode":"",
-   	"courseid":,
-   	"courselocation":"",
-   	"coursename":"",
-   	"coursetime":"hh:mm-hh:mm",
-   	"imei":"",
-   	"signtime":"yyyy-mm-dd:hh:mm:ss",
-   	"sname":"",
-   	"sno":"",
-   	"teachername":""
-   }
-   ```
-
-2. Save the json into `data.txt`.
-3. Edit the `signtime` before execution.
-4. Execute the script.
+Learn Chinese, then following the Chinese version instruction.
 
 ## 中文
 
@@ -50,27 +29,16 @@ BJUTCloudSign（北工大 AP 云签到）是一个基于 Python 的测试项目�
 
 ### 使用
 
-1. 抓取 AP 签到的数据包。
+1. 记录签到数据包的imei字段（并非标准的手机iemi）、教室内 AP 的 mac 地址，以及 checkcode 的盐。
 
-2. 解码并填充以下字段。
+2. 填充以下字段。
 
-   ```json
-   {
-   	"checkcode":"",
-   	"courseid":,
-   	"courselocation":"",
-   	"coursename":"",
-   	"coursetime":"hh:mm-hh:mm",
-   	"imei":"",
-   	"signtime":"yyyy-mm-dd:hh:mm:ss",
-   	"sname":"",
-   	"sno":"",
-   	"teachername":""
-   }
+   ```python
+   studentNumber = ""
+   studentName = ""
+   apMacAddress = ""
+   checkcodeSalt = ""
+   imei = ""
    ```
 
-3. 保存 Json 至 `data.txt`。
-
-4. 在每次签到前修改签到时间字段。
-
-5. 执行脚本实现签到。
+3. 执行脚本实现签到。
