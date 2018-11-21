@@ -10,6 +10,9 @@ README [English](#English) | [中文](#中文)
 - [x] Auto generate checkcode
 - [x] Auto generate sign time
 - [ ] Fetch sign history
+- [ ] Custom User-Agent
+- [ ] Batch sign in
+- [ ] Auto generate imei
 
 ## English
 
