@@ -28,7 +28,7 @@ Learn Chinese, then following the Chinese version instruction.
 
 ### 介绍
 
-BJUTCloudSign（北工大 AP 云签到）是一个基于 Python 的测试项目，适用于 AP 云签到系统的远程签到。
+BJUTCloudSign（北工大 AP 云签到）是一个基于 Python 的测试项目，用于 AP 课堂签到系统的远程签到。
 
 ### 使用
 
